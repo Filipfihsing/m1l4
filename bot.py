@@ -27,4 +27,4 @@ async def on_message_edit(before, after):
     await before.channel.send("Przed modyfikacją: " + before.content + "\nPo modyfikacji: " + after.content)
 
 
-bot.run
+bot.run(token here)
